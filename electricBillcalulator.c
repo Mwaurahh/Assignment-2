@@ -3,7 +3,7 @@
 int main(){
   int customerID,unitsConsumed;
   double Amount,chargeperUnit, billIncrement;
-  char customerName[]=("");
+  char customerName[30];
   
   printf("Enter your name:");
   scanf("%s", &customerName);
